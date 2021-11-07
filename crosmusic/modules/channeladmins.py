@@ -20,11 +20,11 @@ from asyncio import QueueEmpty
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from DaisyXMusic.function.admins import set
-from DaisyXMusic.helpers.decorators import authorized_users_only, errors
-from DaisyXMusic.services.callsmusic import callsmusic
-from DaisyXMusic.services.queues import queues
-from DaisyXMusic.config import que
+from crosmusic.function.admins import set
+from crosmusic.helpers.decorators import authorized_users_only, errors
+from crosmusic.services.callsmusic import callsmusic
+from crosmusic.services.queues import queues
+from crosmusic.config import que
 
 
 @Client.on_message(
