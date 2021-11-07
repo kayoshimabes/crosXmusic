@@ -23,7 +23,7 @@ from pyrogram.types import Message
 from crosmusic.function.admins import set
 from crosmusic.helpers.decorators import authorized_users_only, errors
 from crosmusic.services.callsmusic import callsmusic
-from crosmuaic.services.queues import queues
+from crosmusic.services.queues import queues
 from crosmusic.config import que
 
 
