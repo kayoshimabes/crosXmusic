@@ -35,8 +35,8 @@ from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 
-from DaisyXMusic.config import DURATION_LIMIT
-from DaisyXMusic.modules.play import arq
+from crosmusic.config import DURATION_LIMIT
+from crosmusic.modules.play import arq
 
 
 @Client.on_message(filters.command("song") & ~filters.channel)
@@ -232,7 +232,7 @@ ydl_opts = {
         {
             "key": "FFmpegExtractAudio",
             "preferredcodec": "mp3",
-            "preferredquality": "192",
+            "preferredquality": "320",
         }
     ],
 }
