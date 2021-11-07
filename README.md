@@ -137,8 +137,8 @@ Also DaisyXmusic is inspired by many opensource bots and userbots
 
 ## 𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 & 𝐋𝐢𝐜𝐞𝐧𝐬𝐞 👮
 
- - Copyright (C) 2020 - 2021 by [CrosExMusic](github.com/GLITTERneey) ❤️️
+ - Copyright (C) 2020 - 2021 by [crosmusic](https://github.com/GLITTERneey) ❤️️
  - Licensed under the terms of the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/GLITTERneey/crosXmusic/blob/master/LICENSE)
     
 DaisyXMusic is Free Software: You can use, study share and improve it at your will. Specifically you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.    
-## 𝐌𝐚𝐝𝐞 𝐰𝐢𝐭𝐡 ♥️ by [CrosExMusic](https://github.com/GLITTERneey)
+## 𝐌𝐚𝐝𝐞 𝐰𝐢𝐭𝐡 ♥️ 𝐛𝐲𝐞 [crosmusic](https://github.com/GLITTERneey)
