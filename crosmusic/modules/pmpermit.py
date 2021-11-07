@@ -17,8 +17,8 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from DaisyXMusic.config import PMPERMIT, SUDO_USERS
-from DaisyXMusic.services.callsmusic import client as USER
+from crosmusic.config import PMPERMIT, SUDO_USERS
+from crosmusic.services.callsmusic import client as USER
 
 PMSET = True
 pchats = []
