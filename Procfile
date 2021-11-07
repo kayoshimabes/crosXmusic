@@ -1,1 +1,1 @@
-worker: python3 -m crosXmusic
+worker: python3 -m crosmusic
