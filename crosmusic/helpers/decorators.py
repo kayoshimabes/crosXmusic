@@ -20,8 +20,8 @@ from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
 
-from crosXmusic.config import SUDO_USERS
-from crosXmusic.helpers.admins import get_administrators
+from crosmusic.config import SUDO_USERS
+from crosmusic.helpers.admins import get_administrators
 
 
 def errors(func: Callable) -> Callable:
