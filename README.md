@@ -1,14 +1,16 @@
-<h1 align="center">DAISYX MUSIC V5.0 🎵</h1>
+<h2 align="centre">𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 </h2>
 
-### A bot that can play music on Telegram Group and Channel Voice Chats
-#### POWERED BY [MARSHALX TGCALLS](https://github.com/MarshalX/tgcalls)
-### Available on telegram as [@DaisyXbot](https://t.me/daisyxbot)
+<h1 align="center">𝐊𝐀𝐋𝐀𝐔 𝐌𝐀𝐔 𝐅𝐎𝐑𝐊 𝐒𝐓𝐀𝐑 𝐘𝐀𝐀 𝐌𝐄𝐌𝐄𝐊 𝐇𝐀𝐇𝐀𝐇</h1>
+
+### 𝐁𝐨𝐭 𝐲𝐚𝐧𝐠 𝐝𝐚𝐩𝐚𝐭 𝐦𝐞𝐦𝐮𝐭𝐚𝐫 𝐦𝐮𝐬𝐢𝐤 𝐝𝐢 𝐆𝐫𝐮𝐩 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐝𝐚𝐧 𝐎𝐛𝐫𝐨𝐥𝐚𝐧 𝐒𝐮𝐚𝐫𝐚 𝐒𝐚𝐥𝐮𝐫𝐚𝐧
+#### 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘𝐄 [MARSHALX TGCALLS](https://github.com/MarshalX/tgcalls)
+### 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐨𝐧 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐚𝐬 [@KopiExMusic](https://t.me/KopiExMusic)
 
 <p align="center">
-  <img src="https://telegra.ph/file/dd04b1968f1bc1169d162.jpg">
+  <img src="https://telegra.ph/file/c86b11ae34837100c50db.jpg">
 </p>
 
-<h2> Features 🔥 </h2>
+<h2> 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 🔥 </h2>
 
 - Thumbnail Support
 - Playlist Support
@@ -26,7 +28,7 @@
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamDaisyX/DaisyXMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GLITTERneey/crosXmusic)
 
 Get pyrogram (p)  `SESSION` from here:
 
@@ -35,17 +37,17 @@ Get pyrogram (p)  `SESSION` from here:
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-get install git)
-$ git clone https://github.com/TeamDaisyX/DaisyXmusic
-$ cd DaisyXMusic
+$ git clone https://github.com/GLITTERneey/crosXmusic
+$ cd crosXmusic
 # Upgrade sources
 # Install All Requirements 
 $ pip3 install -U -r requirements.txt
 # Fork This Repo and fill config.py vars with your own values.Then Start The Bot
-$ python3 -m DaisyXMusic
+$ python3 -m "crosXmusic"
 ```
 
-### Commands for Group 🛠
-#### For all in group
+### 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐟𝐨𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 🛠
+#### 𝐅𝐨𝐫 𝐚𝐥𝐥 𝐢𝐧 𝐠𝐫𝐨𝐮𝐩𝐬
 
 - `/play <song name>` - play song you requested
 - `/play <reply to audio>` - play replied file
@@ -60,7 +62,7 @@ $ python3 -m DaisyXMusic
 - `/saavn <song name>` - download songs you want quickly via saavn
 - `/video <song name>` - download videos you want quickly
 
-#### Admins only.
+#### 𝐀𝐝𝐦𝐢𝐧𝐬 𝐨𝐧𝐥𝐲.
 - `/player` - open music player settings panel
 - `/pause` - pause song play
 - `/resume` - resume song play
@@ -73,7 +75,7 @@ $ python3 -m DaisyXMusic
 - `/admincache` - Refresh admin list
 - `/musicplayer [on/off]` - Enable/Disable Music Player
 
-### Commands for Channel Music Play 🛠
+### 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐟𝐨𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲 🛠
 For linked group admins only:
 - `/cplay <song name>` - play song you requested
 - `/cplay <reply to link>` - play replied youtube link
@@ -92,33 +94,33 @@ For linked group admins only:
 - `/userbotjoinchannel` - invite assistant to your chat
 * channel is also can be used instead of c
 
-If you donlt like to play in linked channel:
+𝐈𝐟 𝐲𝐨𝐮 𝐝𝐨𝐧𝐥𝐭 𝐥𝐢𝐤𝐞 𝐭𝐨 𝐩𝐥𝐚𝐲 𝐢𝐧 𝐥𝐢𝐧𝐤𝐞𝐝 𝐜𝐡𝐚𝐧𝐧𝐞𝐥:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
  3. Add @DaisyXBot as Channel admin with full perms
  4. add helper to channel
  5. Simply send commands in your group.
 
-### Commands for Sudo Users ⚔️
+### 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐟𝐨𝐫 𝐒𝐮𝐝𝐨 𝐔𝐬𝐞𝐫𝐬 ⚔️
 - `/userbotleaveall` - remove assistant from all chats
 - `/gcast <reply to message>` - globally brodcast replied message to all chats
 - `/pmpermit [on/off]` - enable/disable pmpermit message
 
-#### Pmpermit
+#### 𝐏𝐦𝐩𝐞𝐫𝐦𝐢𝐭
 - `.a` - approove someone to pm you
 - `.da` - disapproove someone to pm you
 + Sudo Users can execute any command in any groups
 
 
 
-### Inspiration
+### 𝐈𝐧𝐬𝐩𝐢𝐫𝐚𝐭𝐢𝐨𝐧
 - [Callsmusic](http://github.com/callsmusic/callsmusic)
 - [tgvc-userbot](https://github.com/callsmusic/tgvc-userbot)
 
 This project is inspired on the hard work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork daisyxmusic won't exist. 
 Also DaisyXmusic is inspired by many opensource bots and userbots
 
-#### Contributors
+#### 𝐂𝐨𝐧𝐭𝐫𝐢𝐛𝐮𝐭𝐨𝐫𝐬
 - [InukaAsith](https://github.com/InukaAsith): Dev / Owner
 - [lucifeermorningstar](https://github.com/lucifeermorningstar): Dev / Owner
 - [Technical-Hunter](https://github.com/Technical-Hunter): Dev / Owner
@@ -133,10 +135,10 @@ Also DaisyXmusic is inspired by many opensource bots and userbots
 - [azimazizov9150](https://github.com/azimazizov9150): Contributor
 
 
-## Copyright & License 👮
+## 𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 & 𝐋𝐢𝐜𝐞𝐧𝐬𝐞 👮
 
  - Copyright (C) 2020 - 2021 by [TeamDaisyX](github.com/teamdaisyx) ❤️️
  - Licensed under the terms of the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/TeamDaisyX/DaisyXMusic/blob/master/LICENSE)
     
 DaisyXMusic is Free Software: You can use, study share and improve it at your will. Specifically you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.    
-## Made with ♥️ by [TeamDaisyX](https://github.com/TeamDaisyX)
+## 𝐌𝐚𝐝𝐞 𝐰𝐢𝐭𝐡 ♥️ by [TeamDaisyX](https://github.com/TeamDaisyX)
