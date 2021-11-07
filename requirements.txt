@@ -15,5 +15,6 @@ pillow
 python-arq
 future
 psutil
+yt_dlp
 wget
 tswift
