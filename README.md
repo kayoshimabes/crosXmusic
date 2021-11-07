@@ -38,12 +38,12 @@ Get pyrogram (p)  `SESSION` from here:
 ```sh
 # Install Git First (apt-get install git)
 $ git clone https://github.com/GLITTERneey/crosXmusic
-$ cd crosXmusic
+$ cd crosmusic
 # Upgrade sources
 # Install All Requirements 
 $ pip3 install -U -r requirements.txt
 # Fork This Repo and fill config.py vars with your own values.Then Start The Bot
-$ python3 -m "crosXmusic"
+$ python3 -m "crosmusic"
 ```
 
 ### 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐟𝐨𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 🛠
@@ -137,8 +137,8 @@ Also DaisyXmusic is inspired by many opensource bots and userbots
 
 ## 𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 & 𝐋𝐢𝐜𝐞𝐧𝐬𝐞 👮
 
- - Copyright (C) 2020 - 2021 by [TeamDaisyX](github.com/teamdaisyx) ❤️️
- - Licensed under the terms of the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/TeamDaisyX/DaisyXMusic/blob/master/LICENSE)
+ - Copyright (C) 2020 - 2021 by [CrosExMusic](github.com/GLITTERneey) ❤️️
+ - Licensed under the terms of the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/GLITTERneey/crosXmusic/blob/master/LICENSE)
     
 DaisyXMusic is Free Software: You can use, study share and improve it at your will. Specifically you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.    
-## 𝐌𝐚𝐝𝐞 𝐰𝐢𝐭𝐡 ♥️ by [TeamDaisyX](https://github.com/TeamDaisyX)
+## 𝐌𝐚𝐝𝐞 𝐰𝐢𝐭𝐡 ♥️ by [CrosExMusic](https://github.com/GLITTERneey)
