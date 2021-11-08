@@ -14,29 +14,29 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from crosmusic.config import ASSISTANT_NAME, PROJECT_NAME
+from DaisyXMusic.config import ASSISTANT_NAME, PROJECT_NAME
 
 
 class Messages:
-    START_MSG = "**Halo 👋 [{}](tg://user?id={})!** \n \n Saya adalah bot tingkat lanjut yang dibuat untuk memutar musik dalam obrolan suara Grup & Saluran Telegram. \n \n Kirimi saya /help untuk info lebih lanjut."
+    START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
     HELP_MSG = [
         ".",
         f"""
-**нαℓℓσ 👋 ωєℓ¢σмє вα¢к тσ {PROJECT_NAME}
+**Hey 👋 Welcome back to {PROJECT_NAME}
 
-⚪️ {PROJECT_NAME} ∂αραт мємυтαя мυѕιк ∂ι σвяσℓαη ѕυαяα gяυρ αη∂α ѕєятα σвяσℓαη ѕυαяα ѕαℓυяαη
+⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
 
-⚪️ αѕѕιѕтαηт ηαмє >> @{ASSISTANT_NAME}\n\nкℓιк вєяιкυтηуα υηтυк ℓιαт ρєтυηʝυк**
+⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
 """,
         f"""
-**ѕєттιηg υρ**
+**Setting up**
 
 1) Make bot admin (Group and in channel if use cplay)
 2) Start a voice chat
 3) Try /play [song name] for the first time by an admin
 *) If userbot joined enjoy music, If not add @{ASSISTANT_NAME} to your group and retry
 
-**ƒσя ¢нαηηєℓ мυѕι¢ ρℓαу**
+**For Channel Music Play**
 1) Make me admin of your channel 
 2) Send /userbotjoinchannel in linked group
 3) Now send commands in linked group
@@ -44,7 +44,7 @@ class Messages:
         f"""
 **Commands**
 
-**=>> ѕσηg ρℓαуιηg 🎧**
+**=>> Song Playing 🎧**
 
 - /play: Play the requestd song
 - /play [yt url] : Play the given yt url
@@ -52,7 +52,7 @@ class Messages:
 - /splay: Play song via jio saavn
 - /ytplay: Directly play song via Youtube Music
 
-**=>> ρℓαувα¢к ⏯**
+**=>> Playback ⏯**
 
 - /player: Open Settings menu of player
 - /skip: Skips the current track
@@ -64,12 +64,12 @@ class Messages:
 - /current: Shows the current Playing track
 - /playlist: Shows playlist
 
-*ρℓαуєя ¢м∂ αη∂ αℓℓ σтнєя ¢м∂ѕ єχ¢єρт /play, /current  αη∂ /playlist  αяє σηℓу ƒσя α∂мιηѕ σƒ тнє gяσυρѕ.
+*Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
 """,
         f"""
-**=>> ¢нαηηєℓ мυѕι¢ ρℓαу 🛠**
+**=>> Channel Music Play 🛠**
 
-⚪️ ƒσя ℓιηкє∂ gяσυρѕ α∂мιηѕ σηℓу:
+⚪️ For linked group admins only:
 
 - /cplay [song name] - play song you requested
 - /csplay [song name] - play song you requested via jio saavn
@@ -85,38 +85,38 @@ class Messages:
 - /unmute - mute song play
 - /userbotjoinchannel - invite assistant to your chat
 
-¢нαηηєℓ ιѕ αℓѕσ ¢αη вє υѕє∂ ιηѕтєα∂ σƒ ¢ ( /cplay = /channelplay )
+channel is also can be used instead of c ( /cplay = /channelplay )
 
-⚪️ ιƒ уσυ ∂σηℓт ℓιкє тσ ρℓαу ιη ℓιηкє∂ gяσυρѕ:
+⚪️ If you donlt like to play in linked group:
 
-1) gєт уσυя ¢нαηηєℓ ι∂.
+1) Get your channel ID.
 2) Create a group with tittle: Channel Music: your_channel_id
 3) Add bot as Channel admin with full perms
 4) Add @{ASSISTANT_NAME} to the channel as an admin.
 5) Simply send commands in your group. (remember to use /ytplay instead /play)
 """,
         f"""
-**=>> мσяє тσσℓѕ 🧑‍🔧**
+**=>> More tools 🧑‍🔧**
 
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
 """,
         f"""
-**=>> ѕσηg ∂σωηℓσα∂ 🎸**
+**=>> Song Download 🎸**
 
 - /video [song mame]: Download video song from youtube
 - /song [song name]: Download audio song from youtube
 - /saavn [song name]: Download song from saavn
 - /deezer [song name]: Download song from deezer
 
-**=>> ѕєαя¢н тσσℓѕ 📄**
+**=>> Search Tools 📄**
 
 - /search [song name]: Search youtube for songs
 - /lyrics [song name]: Get song lyrics
 """,
         f"""
-**=>> ¢σммαη∂ѕ ƒσя ѕυ∂σ υѕєяѕ ⚔️**
+**=>> Commands for Sudo Users ⚔️**
 
  - /userbotleaveall - remove assistant from all chats
  - /broadcast <reply to message> - globally brodcast replied message to all chats
