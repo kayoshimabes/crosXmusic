@@ -34,14 +34,14 @@ async def addchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>Add me as admin of yor group first</b>",
+            "<b>🙋‍♂️ Tambahkan saya sebagai admin grup Anda terlebih dahulu</b>",
         )
         return
 
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "crosmusic"
 
     try:
         await USER.join_chat(invitelink)
@@ -53,12 +53,12 @@ async def addchannel(client, message):
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nOr manually add @DaisyXhelper to your Group and try again</b>",
+            f"<b>🛑 кєѕαℓαнαη кσηтσℓ 🛑 \n User {user.first_name} тι∂αк ∂αραт вєяgαвυηg ∂єηgαη gяυρ αη∂α кαяєηα вαηуαкηуα ρєямιηтααη вєяgαвυηg υηтυк υѕєявσт! ραѕтιкαη ρєηggυηα тι∂αк ∂ιℓαяαηg ∂ι gяυρ."
+            "\n\nOr тαмвαнкαη αѕιѕтєη ѕє¢αяα мαηυαℓ кє gяυρ αη∂α ∂αη ¢σвα ℓαgι</b>",
         )
         return
     await message.reply_text(
-        "<b>helper userbot joined your chat</b>",
+        "<b>✅ нєℓρєя υѕєявσт вєяgαвυηg ∂єηgαη σвяσℓαη gяσυρѕ αη∂α</b>",
     )
 
 
@@ -69,8 +69,8 @@ async def rem(USER, message):
         await USER.leave_chat(message.chat.id)
     except:
         await message.reply_text(
-            f"<b>User couldn't leave your group! May be floodwaits."
-            "\n\nOr manually kick me from to your Group</b>",
+            f"<b>ρєηggυηα тι∂αк ∂αραт мєηιηggαℓкαη gяυρ αη∂α! мυηgкιη мєηυηggυ кєтι∂αкραѕтιαη."
+            "\n\nOr ѕє¢αяα нαℓυѕ мєηєη∂αηg ѕαуα ∂αяι кє gяυρ αη∂α</b>",
         )
         return
 
@@ -80,18 +80,18 @@ async def bye(client, message):
     if message.from_user.id in SUDO_USERS:
         left = 0
         failed = 0
-        lol = await message.reply("Assistant Leaving all chats")
+        lol = await message.reply("αѕιѕтєη мєηιηggαℓкαη ѕємυα σвяσℓαη вує👋")
         async for dialog in USER.iter_dialogs():
             try:
                 await USER.leave_chat(dialog.chat.id)
                 left = left + 1
                 await lol.edit(
-                    f"Assistant leaving... Left: {left} chats. Failed: {failed} chats."
+                    f"αѕѕιѕтαηт ℓєανιηg... ℓєƒт: {left} chats. Failed: {failed} chats."
                 )
             except:
                 failed = failed + 1
                 await lol.edit(
-                    f"Assistant leaving... Left: {left} chats. Failed: {failed} chats."
+                    f"αѕѕιѕтαηт ℓєανιηg... ℓєƒт: {left} chats. Failed: {failed} chats."
                 )
             await asyncio.sleep(0.7)
         await client.send_message(
@@ -110,36 +110,36 @@ async def addcchannel(client, message):
         conid = conchat.linked_chat.id
         chid = conid
     except:
-        await message.reply("Is chat even linked")
+        await message.reply("αραкαн σвяσℓαη ѕυαяα тєℓαн тєянυвυηg?")
         return
     try:
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>Add me as admin of yor channel first</b>",
+            "<b>🙋‍♂️ тαмвαнкαη ѕαуα ѕєвαgαι α∂мιη ѕαℓυяαη αη∂α тєяℓєвιн ∂αнυℓυ</b>",
         )
         return
 
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "crosmusic"
 
     try:
         await USER.join_chat(invitelink)
         await USER.send_message(message.chat.id, "I joined here as you requested")
     except UserAlreadyParticipant:
         await message.reply_text(
-            "<b>helper already in your channel</b>",
+            "<b>ρємвαηтυ ѕυ∂αн α∂α ∂ι ¢нαηηєℓ αη∂α</b>",
         )
         return
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your channel due to heavy join requests for userbot! Make sure user is not banned in channel."
-            "\n\nOr manually add @DaisyXhelper to your Group and try again</b>",
+            f"<b>🛑 кєѕαℓαнαη кσηтσℓ 🛑 \n User {user.first_name} тι∂αк ∂αραт вєяgαвυηg ∂єηgαη ѕαℓυяαη αη∂α кαяєηα вαηуαкηуα ρєямιηтααη вєяgαвυηg υηтυк υѕєявσт! ραѕтιкαη ρєηggυηα тι∂αк ∂ιвαηη ∂ι ѕαℓυяαη."
+            "\n\nOr тαмвαнкαη αѕιѕтєη ѕє¢αяα мαηυαℓ кє gяυρ αη∂α ∂αη ¢σвα ℓαgι</b>",
         )
         return
     await message.reply_text(
-        "<b>helper userbot joined your channel</b>",
+        "<b>✅ нєℓρєя υѕєявσт вєяgαвυηg ∂єηgαη ¢нαηηєℓ αη∂α</b>",
     )
