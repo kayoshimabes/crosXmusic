@@ -46,7 +46,7 @@ def _start(client, message):
                InlineKeyboardButton("💬 ѕυρρσят", url=f"https://t.me/{SUPPORT_GROUP}")
             ],
             [
-               InlineKeyboardButton("🛠 σωηєя вσт 🛠", url=f"https://{SOURCE_CODE}")
+               InlineKeyboardButton("🛠 σωηєя вσт 🛠", url=f"https://Biarenakliatnyaaa")
            ]]
         ),
         reply_to_message_id=message.message_id,
@@ -105,7 +105,7 @@ def map(pos):
                     InlineKeyboardButton(text="💬 ѕυρρσят", url=f"https://t.me/{SUPPORT_GROUP}")
                   ],
                   [
-                    InlineKeyboardButton(text="🛠 σωηєя вσт 🛠", url=f"https://{SOURCE_CODE}")
+                    InlineKeyboardButton(text="🛠 σωηєя вσт 🛠", url=f"https://Biarenakliatnyaaa")
                   ],
                   [
                     InlineKeyboardButton(text="◀️", callback_data=f"help+{pos-1}")
