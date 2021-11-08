@@ -7,7 +7,7 @@
 ### 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐨𝐧 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐚𝐬 [@KopiExMusic](https://t.me/KopiExMusic)
 
 <p align="center">
-  <img src="https://telegra.ph/file/c86b11ae34837100c50db.jpg">
+  <img src="https://telegra.ph/file/cc08082d89e52ea154bd9.jpg">
 </p>
 
 <h2> 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 🔥 </h2>
