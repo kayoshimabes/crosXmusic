@@ -18,7 +18,7 @@ from crosmusic.config import ASSISTANT_NAME, PROJECT_NAME
 
 
 class Messages:
-    START_MSG =  "**Halo 👋 [{}](tg://user?id={})!** \n \n Saya adalah bot tingkat lanjut yang dibuat untuk memutar musik dalam obrolan suara Grup & Saluran Telegram \n \n ¢αяα уαηg мυ∂αн
+    START_MSG =  ""**Halo 👋 [{}](tg://user?id={})!** \n \n Saya adalah bot tingkat lanjut yang dibuat untuk memutar musik dalam obrolan suara Grup & Saluran Telegram \n \n уαηg мυ∂αн
 ѕαуα мємιℓιкι вαηуαк ƒιтυя ρяαктιѕ ѕєρєятι :
 ┏━━━━━━━━━━━━━━
 ┣• мємυтαя мυѕιк.
@@ -28,7 +28,7 @@ class Messages:
 ┣• мєη¢αяι ℓαgυ уαηg ιηgιη ∂ι ρυтαя αтαυ di ∂σωηℓσα∂.
 ┣• gυηαкαη ρєяιηтαн » /help « υηтυк мєηgєтαнυι ƒιтυя ℓєηgкαρ ѕαуα
 ┗━━━━━━━━━━━━━━ 
-❃✨тєяιмαкαѕιн тєℓαн мєηggυηαкαη ρяσʝє¢т ιηι! [GLITTER](https://t.me/{OWNER_NAME})."
+❃✨тєяιмαкαѕιн тєℓαн мєηggυηαкαη ρяσʝє¢т ιηι! [GLITTER](https://t.me/{OWNER_NAME})""
     HELP_MSG = [
         ".",
         f"""
