@@ -18,17 +18,20 @@ from crosmusic.config import ASSISTANT_NAME, PROJECT_NAME
 
 
 class Messages:
-    START_MSG =  ""**Halo 👋 [{}](tg://user?id={})!** \n \n Saya adalah bot tingkat lanjut yang dibuat untuk memutar musik dalam obrolan suara Grup & Saluran Telegram \n \n уαηg мυ∂αн
-ѕαуα мємιℓιкι вαηуαк ƒιтυя ρяαктιѕ ѕєρєятι :
+    START_MSG = "**Halo {message.from_user.first_name} Cakep. \n
+Saya Bot Music Group, Yang Bisa Memutar Lagu Dengan Cepat di Voice Chat Group Dengan Cara Yang Mudah
+Saya Memiliki Banyak Fitur Praktis Seperti :
 ┏━━━━━━━━━━━━━━
-┣• мємυтαя мυѕιк.
-┣• мєη∂σωηℓσα∂ ℓαgυ.
-┣• мєℓιнαт ℓιяιк ℓαgυ.
-┣• мємρυηуαι вαηуαк мσ∂υℓ мєηαяιк.
-┣• мєη¢αяι ℓαgυ уαηg ιηgιη ∂ι ρυтαя αтαυ di ∂σωηℓσα∂.
-┣• gυηαкαη ρєяιηтαн » /help « υηтυк мєηgєтαнυι ƒιтυя ℓєηgкαρ ѕαуα
-┗━━━━━━━━━━━━━━ 
-❃✨тєяιмαкαѕιн тєℓαн мєηggυηαкαη ρяσʝє¢т ιηι! [GLITTER](https://t.me/{OWNER_NAME})""
+┣• Memutar Musik.
+┣• Mendownload Lagu.
+┣• Melihat Lirik Lagu.
+┣• Mempunyai Banyak Modul Menarik.
+┣• Mencari Lagu Yang ingin di Putar atau di Download.
+┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap Saya
+┗━━━━━━━━━━━━━━
+❃📌 Thanks by [GLITTER](https://t.me/Biarenakliatnyaaa) X [RIO](https://t.me/fckualot) 
+❃ Terimakasih Telah Menggunakan Project Ini! [{OWNER_NAME}](https://t.me/{OWNER_NAME})
+━━━━━━━━━━━━━━━**"
     HELP_MSG = [
         ".",
         f"""
