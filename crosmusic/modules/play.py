@@ -212,14 +212,14 @@ async def ee(client, message):
     if stats:
         await message.reply(stats)
     else:
-        await message.reply("тι∂αк α∂α ιηѕтαηѕ ν¢ уαηg вєяʝαℓαη ∂αℓαм σвяσℓαη ιηι")
+        await message.reply("𝐓𝐢𝐝𝐚𝐤 𝐀𝐝𝐚 𝐈𝐧𝐬𝐭𝐚𝐧𝐬 𝐕𝐜 𝐘𝐚𝐧𝐠 𝐁𝐞𝐫𝐣𝐚𝐥𝐚𝐧 𝐃𝐚𝐥𝐚𝐦 𝐎𝐛𝐫𝐨𝐥𝐚𝐧 𝐈𝐧𝐢")
 
 
 @Client.on_message(filters.command("player") & filters.group & ~filters.edited)
 @authorized_users_only
 async def settings(client, message):
     if message.chat.id in DISABLED_GROUPS:
-        await message.reply("❗ρємυтαя мυѕιк ∂ιησηαктιƒкαη")
+        await message.reply("❗𝐏𝐞𝐦𝐮𝐭𝐚𝐫 𝐌𝐮𝐬𝐢𝐜 𝐃𝐢𝐧𝐨𝐧𝐚𝐤𝐭𝐢𝐟𝐤𝐚𝐧")
         return
     playing = None
     chat_id = get_chat_id(message.chat)
@@ -233,7 +233,7 @@ async def settings(client, message):
         else:
             await message.reply(stats, reply_markup=r_ply("play"))
     else:
-        await message.reply("тι∂αк α∂α ιηѕтαηѕ ν¢ уαηg вєяʝαℓαη ∂αℓαм σвяσℓαη ιηι")
+        await message.reply("await message.reply("𝐓𝐢𝐝𝐚𝐤 𝐀𝐝𝐚 𝐈𝐧𝐬𝐭𝐚𝐧𝐬 𝐕𝐜 𝐘𝐚𝐧𝐠 𝐁𝐞𝐫𝐣𝐚𝐥𝐚𝐧 𝐃𝐚𝐥𝐚𝐦 𝐎𝐛𝐫𝐨𝐥𝐚𝐧 𝐈𝐧𝐢")
 
 
 @Client.on_message(
@@ -248,15 +248,15 @@ async def hfmm(_, message):
         return
     if len(message.command) != 2:
         await message.reply_text(
-            "ѕαуα нαηуα мєηgєηαℓι `/musicplayer on` αη∂ /musicplayer `off σηℓу`"
+            "𝐒𝐚𝐲𝐚 𝐇𝐚𝐧𝐲𝐚 𝐌𝐞𝐧𝐠𝐞𝐧𝐚𝐥𝐢 `/musicplayer on` 𝐃𝐚𝐧 /musicplayer `off 𝐎𝐧𝐥𝐲`"
         )
         return
     status = message.text.split(None, 1)[1]
     message.chat.id
     if status == "ON" or status == "on" or status == "On":
-        lel = await message.reply("`ρяσ¢єѕѕιηg...`")
+        lel = await message.reply("`𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠...`")
         if not message.chat.id in DISABLED_GROUPS:
-            await lel.edit("✅ ρємυтαя мυѕιк ѕυ∂αн ∂ιαктιƒкαη ∂ι σвяσℓαη gяσυρѕ ιηι")
+            await lel.edit("✅ 𝐩𝐞𝐦𝐮𝐭𝐚𝐫 𝐌𝐮𝐬𝐢𝐜 𝐒𝐮𝐝𝐚𝐡 𝐃𝐢𝐚𝐤𝐭𝐢𝐟𝐤𝐚𝐧 𝐃𝐢 𝐆𝐫𝐨𝐮𝐩𝐬 𝐨𝐛𝐫𝐨𝐥𝐚𝐧 𝐀𝐧𝐝𝐚")
             return
         DISABLED_GROUPS.remove(message.chat.id)
         await lel.edit(
