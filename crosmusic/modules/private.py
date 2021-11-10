@@ -22,7 +22,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from crosmusic.config import (
     BOT_USERNAME,
     PROJECT_NAME,
-    SOURCE_DONATUR,
+    SOURCE_CODE,
     SUPPORT_GROUP,
     UPDATES_CHANNEL,
 )
@@ -46,7 +46,7 @@ def _start(client, message):
                InlineKeyboardButton("✨𝐆𝐫𝐨𝐮𝐩𝐬", url=f"https://t.me/{SUPPORT_GROUP}")
             ],
             [
-               InlineKeyboardButton("🩸𝐃𝐨𝐧𝐚𝐭𝐮𝐫🩸", url=f"https://t.me/{SOURCE_DONATUR}")
+               InlineKeyboardButton("🩸𝐃𝐨𝐧𝐚𝐭𝐮𝐫🩸", url=f"https://t.me/Biarenakliatnyaaa")
            ]]
         ),
         reply_to_message_id=message.message_id,
