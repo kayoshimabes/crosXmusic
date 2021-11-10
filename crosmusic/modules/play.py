@@ -233,7 +233,7 @@ async def settings(client, message):
         else:
             await message.reply(stats, reply_markup=r_ply("play"))
     else:
-        await message.reply("await message.reply("𝐓𝐢𝐝𝐚𝐤 𝐀𝐝𝐚 𝐈𝐧𝐬𝐭𝐚𝐧𝐬 𝐕𝐜 𝐘𝐚𝐧𝐠 𝐁𝐞𝐫𝐣𝐚𝐥𝐚𝐧 𝐃𝐚𝐥𝐚𝐦 𝐎𝐛𝐫𝐨𝐥𝐚𝐧 𝐈𝐧𝐢")
+        await message.reply("𝐓𝐢𝐝𝐚𝐤 𝐀𝐝𝐚 𝐈𝐧𝐬𝐭𝐚𝐧𝐬 𝐕𝐜 𝐘𝐚𝐧𝐠 𝐁𝐞𝐫𝐣𝐚𝐥𝐚𝐧 𝐃𝐚𝐥𝐚𝐦 𝐎𝐛𝐫𝐨𝐥𝐚𝐧 𝐈𝐧𝐢")
 
 
 @Client.on_message(
