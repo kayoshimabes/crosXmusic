@@ -46,7 +46,7 @@ def _start(client, message):
                InlineKeyboardButton("✨𝐆𝐫𝐨𝐮𝐩𝐬", url=f"https://t.me/{SUPPORT_GROUP}")
             ],
             [
-               InlineKeyboardButton("🩸𝐃𝐨𝐧𝐚𝐭𝐮𝐫🩸", url=f"https://t.me/Biarenakliatnyaaa")
+               InlineKeyboardButton("🩸𝐃𝐨𝐧𝐚𝐭𝐮𝐫🩸", url=f"https://t.me/{SOURCE_DONATUR}")
            ]]
         ),
         reply_to_message_id=message.message_id,
@@ -57,7 +57,7 @@ def _start(client, message):
 async def gstart(_, message: Message):
     await message.reply_text(
         f"""**🔴 {PROJECT_NAME} 𝐈𝐬 𝐎𝐧𝐥𝐢𝐧𝐞**""",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💬 Support Chat", url=f"https://t.me/{SUPPORT_GROUP}")]])
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✨ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐂𝐡𝐚𝐭", url=f"https://t.me/{SUPPORT_GROUP}")]])
     )
 
 
