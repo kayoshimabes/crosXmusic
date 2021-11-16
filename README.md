@@ -4,7 +4,7 @@
 
 ### 𝐁𝐨𝐭 𝐲𝐚𝐧𝐠 𝐝𝐚𝐩𝐚𝐭 𝐦𝐞𝐦𝐮𝐭𝐚𝐫 𝐦𝐮𝐬𝐢𝐤 𝐝𝐢 𝐆𝐫𝐮𝐩 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐝𝐚𝐧 𝐎𝐛𝐫𝐨𝐥𝐚𝐧 𝐒𝐮𝐚𝐫𝐚 𝐒𝐚𝐥𝐮𝐫𝐚𝐧
 #### 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘𝐄 [MARSHALX TGCALLS](https://github.com/MarshalX/tgcalls)
-### 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐨𝐧 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐚𝐬 [@KopiExMusic](https://t.me/KopiExMusic)
+### 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐨𝐧 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐚𝐬 [LacurVSkntl](https://t.me/Virtualllnihsad)
 
 <p align="center">
   <img src="https://telegra.ph/file/cc08082d89e52ea154bd9.jpg">
