@@ -17,3 +17,5 @@ future
 psutil
 wget
 tswift
+youtube_dl
+heroku3
