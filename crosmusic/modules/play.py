@@ -573,7 +573,7 @@ async def play(_, message: Message):
         )
     elif urls:
         query = toxt
-        await lel.edit("🎵 <b>ρяσ¢єѕѕιηg</b>")
+        await lel.edit("🎵 <b>𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠</b>")
         ydl_opts = {"format": "bestaudio/best"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -834,7 +834,7 @@ async def ytplay(_, message: Message):
             f"<i> {user.first_name} 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐓𝐢𝐝𝐚𝐤 𝐀𝐝𝐚 𝐃𝐚𝐥𝐚𝐦 𝐎𝐛𝐫𝐨𝐥𝐚𝐧 𝐈𝐧𝐢, 𝐌𝐢𝐧𝐭𝐚 𝐀𝐝𝐦𝐢𝐧 𝐔𝐧𝐭𝐮𝐤 𝐌𝐞𝐧𝐠𝐢𝐫𝐢𝐦 /play 𝐏𝐞𝐫𝐢𝐧𝐭𝐚𝐡 𝐔𝐧𝐭𝐮𝐤 𝐏𝐞𝐫𝐭𝐚𝐦𝐚 𝐊𝐚𝐥𝐢 𝐀𝐭𝐚𝐮 𝐓𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 {user.first_name} 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲</i>"
         )
         return
-    await lel.edit("🔎 <b>𝐅𝐢𝐦𝐝𝐢𝐧𝐠 𝐒𝐨𝐧𝐠</b>")
+    await lel.edit("🔎 <b>𝐅𝐢𝐧𝐝𝐢𝐧𝐠 𝐒𝐨𝐧𝐠</b>")
     message.from_user.id
     message.from_user.first_name
 
@@ -842,7 +842,7 @@ async def ytplay(_, message: Message):
     for i in message.command[1:]:
         query += " " + str(i)
     print(query)
-    await lel.edit("🎵 <b>𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠</b>")
+    await lel.edit("🔄 <b>𝐌𝐞𝐦𝐩𝐞𝐫𝐨𝐬𝐞𝐬, 𝐊𝐚𝐥𝐚𝐮 𝐃𝐞𝐥𝐚𝐲 𝐒𝐚𝐛𝐚𝐫 𝐍𝐚𝐩𝐚 𝐓𝐨𝐥𝐨𝐥</b>")
     ydl_opts = {"format": "bestaudio/best"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -924,7 +924,7 @@ async def ytplay(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="▶️ <b>Playing</b> 𝐈𝐧𝐢 𝐋𝐚𝐠𝐮 𝐘𝐚𝐧𝐠 𝐃𝐢𝐦𝐢𝐧𝐭𝐚𝐢 𝐎𝐥𝐞𝐡 {} via Youtube Music 😎".format(
+            caption="▶️ <b>𝐏𝐥𝐚𝐲𝐢𝐧𝐠</b> 𝐈𝐧𝐢 𝐋𝐚𝐠𝐮 𝐘𝐚𝐧𝐠 𝐃𝐢𝐦𝐢𝐧𝐭𝐚𝐢 𝐎𝐥𝐞𝐡 {} via Youtube Music 😎".format(
                 message.from_user.mention()
             ),
         )
@@ -1087,14 +1087,14 @@ async def lol_cb(b, cb):
     try:
         x, query, useer_id = typed_.split("|")
     except:
-        await cb.message.edit("ℓαgυ тι∂αк ∂ιтємυкαη")
+        await cb.message.edit("𝐋𝐚𝐠𝐮 𝐓𝐢𝐝𝐚𝐤 𝐃𝐢𝐤𝐞𝐭𝐚𝐡𝐮𝐢")
         return
     useer_id = int(useer_id)
     if cb.from_user.id != useer_id:
         await cb.answer(
-            "αη∂α вυкαη σяαηg уαηg мємιηтα υηтυк мємυтαя ℓαgυ!", show_alert=True
+            "𝐀𝐧𝐝𝐚 𝐁𝐮𝐤𝐚𝐧 𝐎𝐫𝐚𝐧𝐠 𝐘𝐚𝐧𝐠 𝐌𝐞𝐦𝐢𝐧𝐭𝐚 𝐔𝐧𝐭𝐮𝐤 𝐌𝐞𝐦𝐮𝐭𝐚𝐫 𝐋𝐚𝐠𝐮!", show_alert=True
         )
-        return
+        return 
     await cb.message.edit("🔁 **𝐌𝐞𝐦𝐩𝐞𝐫𝐨𝐬𝐞𝐬, 𝐊𝐚𝐥𝐚𝐮 𝐃𝐞𝐥𝐚𝐲 𝐒𝐚𝐛𝐚𝐫 𝐍𝐚𝐩𝐚 𝐊𝐨𝐧𝐭𝐨𝐥")
     x = int(x)
     try:
@@ -1117,7 +1117,7 @@ async def lol_cb(b, cb):
             secmul *= 60
         if (dur / 60) > DURATION_LIMIT:
             await cb.message.edit(
-                f"❌ мυѕιк ℓєвιн ℓαмα ∂αяι {DURATION_LIMIT}min тι∂αк ∂ιρєявσℓєнкαη вєямαιη"
+                f"❌ 𝐌𝐮𝐬𝐢𝐜 𝐋𝐞𝐛𝐢𝐡 𝐋𝐚𝐦𝐚 𝐃𝐚𝐫𝐢 {DURATION_LIMIT}𝐌𝐢𝐧 𝐓𝐢𝐝𝐚𝐤 𝐃𝐢𝐩𝐞𝐫𝐛𝐨𝐥𝐞𝐡𝐤𝐚𝐧 𝐁𝐞𝐫𝐦𝐚𝐢𝐧"
             )
             return
     except:
@@ -1185,6 +1185,6 @@ async def lol_cb(b, cb):
             chat_id,
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"▶️ <b>Playing</b> ιηι ℓαgυ уαηg ∂ιмιηтα σℓєн {r_by.mention()} via Youtube Music 😎",
+            caption=f"▶️ <b>𝐏𝐥𝐚𝐲𝐢𝐧𝐠</b> ιηι ℓαgυ уαηg ∂ιмιηтα σℓєн {r_by.mention()} via Youtube Music 😎",
         )
         os.remove("final.png")
