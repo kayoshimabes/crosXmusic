@@ -50,7 +50,7 @@ def song(client, message):
     rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
     query = "".join(" " + str(i) for i in message.command[1:])
     print(query)
-    m = message.reply("🔎 **Searching**")
+    m = message.reply("🔎 **𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -65,21 +65,21 @@ def song(client, message):
         results[0]["url_suffix"]
         results[0]["views"]
     except Exception as e:
-        m.edit("❌ **Song Not found.**\n\n**Try Entering a clearer song title.**")
+        m.edit("❌ **𝐒𝐨𝐧𝐠 𝐍𝐨𝐭 𝐅𝐨𝐮𝐧𝐝.**\n\n**𝐓𝐫𝐲 𝐄𝐧𝐭𝐞𝐫𝐢𝐧𝐠 𝐚 𝐜𝐥𝐞𝐚𝐫𝐞𝐫 𝐬𝐨𝐧𝐠 𝐭𝐢𝐭𝐥𝐞.**")
         print(str(e))
         return
-    m.edit("📥 **Downloading**")
+    m.edit("📥 **𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠**")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
         rep = f"""
-**🏷 Title :** [{title}]({link})
-**⏱️ Duration :** {duration}
-**👁 Viewer :** {results[0]['views']}
-**🤖 Uploader :** [{BOT_NAME}](https://t.me/{BOT_USERNAME})
-**👤 Requested by :** {rpk}
+**🏷 𝐓𝐢𝐭𝐥𝐞 :** [{title}]({link})
+**⏱️ 𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧 :** {duration}
+**👁 𝐕𝐢𝐞𝐰𝐞𝐫 :** {results[0]['views']}
+**🤖 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐫 :** [{BOT_NAME}](https://t.me/{BOT_USERNAME})
+**👤 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐛𝐲𝐞 :** {rpk}
 """
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
@@ -95,7 +95,7 @@ def song(client, message):
         )
         m.delete()
     except Exception as e:
-        m.edit("❌ **Error**")
+        m.edit("❌ **𝐄𝐫𝐫𝐨𝐫**")
         print(e)
     try:
         os.remove(audio_file)
@@ -225,7 +225,7 @@ ydl_opts = {
         {
             "key": "FFmpegExtractAudio",
             "preferredcodec": "mp3",
-            "preferredquality": "192",
+            "preferredquality": "320",
         }
     ],
 }
@@ -257,12 +257,12 @@ def time_to_seconds(time):
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(":"))))
 
 
-@Client.on_message(command(["video", f"video@{BOT_USERNAME}"]))
+@Client.on_message(command(["vsong", f"video@{BOT_USERNAME}"]))
 async def ytmusic(client, message: Message):
     global is_downloading
     if is_downloading:
         await message.reply_text(
-            "**Downloadan yang lain sedang berlangsung, coba lagi nanti**"
+            "**𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐚𝐧 𝐲𝐚𝐧𝐠 𝐥𝐚𝐢𝐧 𝐬𝐞𝐝𝐚𝐧𝐠 𝐛𝐞𝐫𝐥𝐚𝐧𝐠𝐬𝐮𝐧𝐠, 𝐜𝐨𝐛𝐚 𝐥𝐚𝐠𝐢 𝐧𝐚𝐧𝐭𝐢**"
         )
         return
 
@@ -319,7 +319,7 @@ async def ytmusic(client, message: Message):
 
     c_time = time.time()
     file_stark = f"{ytdl_data['id']}.mp4"
-    capy = f"**Title ➠** [{thum}]({mo}) \n**Channel ➠ ** {thums} \n**Requested for ➠** {urlissed} "
+    capy = f"**𝐓𝐢𝐭𝐥𝐞 ➠** [{thum}]({mo}) \n**𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ➠ ** {thums} \n**𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐅𝐨𝐫 ➠** {urlissed} "
     await client.send_video(
         message.chat.id,
         video=open(file_stark, "rb"),
@@ -332,7 +332,7 @@ async def ytmusic(client, message: Message):
         progress_args=(
             pablo,
             c_time,
-            f"**Uploading** `{urlissed}` **From YouTube Music!**",
+            f"**𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠** `{urlissed}` **From YouTube Music!**",
             file_stark,
         ),
     )
