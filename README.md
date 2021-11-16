@@ -97,7 +97,7 @@ For linked group admins only:
 𝐈𝐟 𝐲𝐨𝐮 𝐝𝐨𝐧𝐥𝐭 𝐥𝐢𝐤𝐞 𝐭𝐨 𝐩𝐥𝐚𝐲 𝐢𝐧 𝐥𝐢𝐧𝐤𝐞𝐝 𝐜𝐡𝐚𝐧𝐧𝐞𝐥:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
- 3. Add @DaisyXBot as Channel admin with full perms
+ 3. Add @Username Bot as Channel admin with full perms
  4. add helper to channel
  5. Simply send commands in your group.
 
@@ -117,28 +117,17 @@ For linked group admins only:
 - [Callsmusic](http://github.com/callsmusic/callsmusic)
 - [tgvc-userbot](https://github.com/callsmusic/tgvc-userbot)
 
-This project is inspired on the hard work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork daisyxmusic won't exist. 
+This project is inspired on the hard work done by [Kayoshi](http://github.com/Kayoshimabes). Without his hardwork daisyxmusic won't exist. 
 Also DaisyXmusic is inspired by many opensource bots and userbots
 
 #### 𝐂𝐨𝐧𝐭𝐫𝐢𝐛𝐮𝐭𝐨𝐫𝐬
 - [InukaAsith](https://github.com/InukaAsith): Dev / Owner
-- [lucifeermorningstar](https://github.com/lucifeermorningstar): Dev / Owner
-- [Technical-Hunter](https://github.com/Technical-Hunter): Dev / Owner
-- [Hellboy-OP](https://github.com/hellboy-op)
-- [Roj Serbest](http://github.com/rojserbest): Developer of callsmusic 
-- [DeshadeethThisarana](https://github.com/deshadeeth-thisarana): Dev
-- [Wrench](https://github.com/EverythingSuckz/): Dev
-- [Bemro](https://github.com/bemroofficial): Dev
-- [QueenArzoo](https://github.com/QueenArzoo): Dev
-- [Anjana-Ma](https://github.com/Anjana-Ma): Dev
-- [ImJanindu](https://github.com/ImJanindu): Dev
-- [azimazizov9150](https://github.com/azimazizov9150): Contributor
-
+- [Kayoshi](https://github.com/Kayoshimabes): Dev
 
 ## 𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 & 𝐋𝐢𝐜𝐞𝐧𝐬𝐞 👮
 
  - Copyright (C) 2020 - 2021 by [crosmusic](https://github.com/GLITTERneey) ❤️️
  - Licensed under the terms of the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/GLITTERneey/crosXmusic/blob/master/LICENSE)
     
-DaisyXMusic is Free Software: You can use, study share and improve it at your will. Specifically you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.    
+CrosXmusic is Free Software: You can use, study share and improve it at your will. Specifically you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.    
 ## 𝐌𝐚𝐝𝐞 𝐰𝐢𝐭𝐡 ♥️ 𝐛𝐲𝐞 [crosmusic](https://github.com/GLITTERneey)
