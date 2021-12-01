@@ -2,7 +2,7 @@ pyrogram
 tgcrypto
 pytgcalls[pyrogram]
 python-dotenv
-yt_dlp
+yt-dlp==2021.11.10.1
 youtube_search_python
 requests
 aiohttp
